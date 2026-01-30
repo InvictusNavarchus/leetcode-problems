@@ -14,4 +14,6 @@ I was planning to use BigInt, but now thinking about it, I can just find the lee
 
 ## Algorithm
 
-1. Transform each linked list into a number. 
+1. Transform each linked list into an array of numbers. 
+2. Feed them into a function that can sum large numbers
+3. Convert the sum into a linked list.
