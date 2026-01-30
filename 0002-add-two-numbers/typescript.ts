@@ -30,18 +30,6 @@ function listToArray(list: ListNode): number[] {
     return digits;
 }
 
-function sumArray(arr: number[]): number {
-    let sum = 0;
-    for (let num of arr) {
-        sum += num;
-    }
-    return sum;
-}
-
-function numberToArray(num: number): number[] {
-    
-}
-
 function arrayToList(arr: number[]): ListNode {
     const list = new ListNode();
 
